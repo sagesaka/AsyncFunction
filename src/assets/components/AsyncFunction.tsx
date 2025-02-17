@@ -2,7 +2,7 @@ const AsyncFunction = () => {
 
 // Promise の練習
 // 2秒後に'完了'を返すPromise
-const promise = new Promise((resolve, reject) => {
+const promise = new Promise((resolve) => {
   setTimeout(() => {
     resolve('完了')
   }, 2000)
